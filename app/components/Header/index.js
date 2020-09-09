@@ -31,15 +31,12 @@ const useStyles = makeStyles((theme) => ({
     position: 'relative',
     marginRight: theme.spacing(2),
     marginLeft: 0,
-    borderRadius: 0,
-    paddingTop:1,
-    [theme.breakpoints.up('md')]: {
-      marginLeft: theme.spacing(5.75),
-      borderRadius: 2,
-    },
+    borderRadius: 2,
+    paddingTop:5,
     display: "none",
     [theme.breakpoints.up('sm')]: {
-      display: "block"
+      display: "block",
+      marginLeft: theme.spacing(15.75),
     },
     width: 550,
     height:50
