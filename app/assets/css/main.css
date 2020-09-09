@@ -1,0 +1,391 @@
+@font-face {
+	font-family: icomoon;
+	src: url(https://d2dwvc4xpcedwj.cloudfront.net/assets/056c8da511126b75271e92ca0869f259.eot);
+	src: url(https://d2dwvc4xpcedwj.cloudfront.net/assets/056c8da511126b75271e92ca0869f259.eot#iefix) format("embedded-opentype"), url(https://d2dwvc4xpcedwj.cloudfront.net/assets/29567f4cfb21f9928b8b2eb4163f2965.ttf) format("truetype"), url(https://d2dwvc4xpcedwj.cloudfront.net/assets/4c956182fc6a5db81d5e20b8445fb0fb.woff) format("woff"), url(https://d2dwvc4xpcedwj.cloudfront.net/assets/a827420caf0cb212da72b4b32e852054.svg#icomoon) format("svg");
+	font-weight: 400;
+	font-style: normal
+}
+
+[class*=" icon-"],
+[class^=icon-] {
+	font-family: icomoon!important;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.icon-return-policy:before {
+	content: "\E901";
+	color: #757575
+}
+.icon-track-order:before {
+	content: "\E902";
+	color: #757575
+}
+.logo{
+	font-size: 32px;
+	margin-right: 25px;
+	margin-top: 15px;
+
+}
+
+.icon-how-to-icon:before {
+	content: "\1F3B8";
+	color: #b1b1b1
+}
+
+.icon-offers:before {
+	content: "\E904";
+	color: #f85a01
+}
+
+.icon-variants:before {
+	content: "\1F578"
+}
+
+.icon-check-added:before {
+	content: "\E906";
+	color: #4fcf64
+}
+
+.icon-ustraa-logo:before {
+	content: "\1F47E";
+	color: #187dbb
+}
+
+.icon-newtag .path3:before {
+	content: "\E903";
+	margin-left: -2.22265625em;
+	color: #fff
+}
+
+.icon-saletag .path1:before {
+	content: "\E905";
+	color: #000
+}
+
+.icon-saletag .path2:before {
+	content: "\E907";
+	margin-left: -2.22265625em;
+	color: #f67500
+}
+
+.icon-saletag .path3:before {
+	content: "\E908";
+	margin-left: -2.22265625em;
+	color: #fff
+}
+
+.icon-ic-recent:before {
+	content: "\E901";
+	color: #757575
+}
+
+.icon-ic-subscription:before {
+	content: "\E909";
+	color: #757575
+}
+
+.icon-ic-address:before {
+	content: "\E90A";
+	color: #757575
+}
+
+.icon-ic-orders:before {
+	content: "\E90B";
+	color: #757575
+}
+
+.icon-ic-deliverytime:before {
+	content: "\E90C";
+	color: #757575
+}
+
+.icon-ic-distributors:before {
+	content: "\E90D";
+	color: #757575
+}
+
+.icon-ic-locate:before {
+	content: "\E90E";
+	color: #757575
+}
+
+.icon-ic-reviews:before {
+	content: "\E90F";
+	color: #757575
+}
+
+.icon-ic-contact:before {
+	content: "\E910";
+	color: #757575
+}
+
+.icon-ic-track:before {
+	content: "\E911";
+	color: #757575
+}
+
+.icon-twitter .path1:before {
+	content: "\E912";
+	color: #fff
+}
+
+.icon-twitter .path2:before {
+	content: "\E913";
+	margin-left: -1em;
+	color: #000
+}
+
+.icon-instagram .path1:before {
+	content: "\E914";
+	color: #fff
+}
+
+.icon-instagram .path2:before {
+	content: "\E915";
+	margin-left: -1em;
+	color: #000
+}
+
+.icon-facebook .path1:before {
+	content: "\E916";
+	color: #fff
+}
+
+.icon-facebook .path2:before {
+	content: "\E917";
+	margin-left: -1em;
+	color: #000
+}
+
+.icon-newtag .path1:before {
+	content: "\E900";
+	color: #000
+}
+
+.icon-newtag .path2:before {
+	content: "\E902";
+	margin-left: -2.22265625em;
+	color: #f67500
+}
+
+.icon-download-on-the-app-store-badge-us-uk-rgb-blk-092917 .path1:before {
+	content: "\E918";
+	color: #000
+}
+
+.icon-download-on-the-app-store-badge-us-uk-rgb-blk-092917 .path2:before {
+	content: "\E919";
+	margin-left: -3.3330078125em;
+	color: #a6a6a6
+}
+
+.icon-download-on-the-app-store-badge-us-uk-rgb-blk-092917 .path3:before {
+	content: "\E91A";
+	margin-left: -3.3330078125em;
+	color: #fff
+}
+
+.icon-download-on-the-app-store-badge-us-uk-rgb-blk-092917 .path4:before {
+	content: "\E91B";
+	margin-left: -3.3330078125em;
+	color: #fff
+}
+
+.icon-download-on-the-app-store-badge-us-uk-rgb-blk-092917 .path5:before {
+	content: "\E91C";
+	margin-left: -3.3330078125em;
+	color: #fff
+}
+
+.icon-google-play .path1:before {
+	content: "\E91D";
+	color: #000
+}
+
+.icon-google-play .path2:before {
+	content: "\E91E";
+	margin-left: -3.3330078125em;
+	color: #a6a6a6
+}
+
+.icon-google-play .path3:before {
+	content: "\E91F";
+	margin-left: -3.3330078125em;
+	color: #fff
+}
+
+.icon-google-play .path4:before {
+	content: "\E920";
+	margin-left: -3.3330078125em;
+	color: #fff
+}
+
+.icon-google-play .path5:before {
+	content: "\E921";
+	margin-left: -3.3330078125em;
+	color: #000
+}
+
+.icon-google-play .path6:before {
+	content: "\E922";
+	margin-left: -3.3330078125em;
+	color: #000
+}
+
+.icon-google-play .path7:before {
+	content: "\E923";
+	margin-left: -3.3330078125em;
+	color: #000
+}
+
+.icon-google-play .path8:before {
+	content: "\E924";
+	margin-left: -3.3330078125em;
+	color: #000
+}
+
+.icon-google-play .path9:before {
+	content: "\E925";
+	margin-left: -3.3330078125em;
+	color: #000;
+	opacity: .2
+}
+
+.icon-google-play .path10:before {
+	content: "\E926";
+	margin-left: -3.3330078125em;
+	color: #000;
+	opacity: .12
+}
+
+.icon-google-play .path11:before {
+	content: "\E927";
+	margin-left: -3.3330078125em;
+	color: #fff;
+	opacity: .25
+}
+
+.icon-ic-faq:before {
+	content: "\E928";
+	color: #757575
+}
+
+.icon-ic-return:before {
+	content: "\E929";
+	color: #757575
+}
+
+.icon-congrats:before {
+	content: "\E92A";
+	color: #4fcf64
+}
+
+.icon-square:before {
+	content: "\E92B";
+	color: #757575
+}
+
+.icon-hu:before {
+	content: "\E92C";
+	color: #00d9cc
+}
+
+.icon-offer .path1:before {
+	content: "\E92D";
+	color: #fff
+}
+
+.icon-offer .path2:before {
+	content: "\E92E";
+	margin-left: -1em;
+	color: #4d4d4d
+}
+
+.icon-offer .path3:before {
+	content: "\E92F";
+	margin-left: -1em;
+	color: #fff
+}
+
+.icon-shape:before {
+	content: "\E930";
+	color: #dcdcdc
+}
+
+.icon-hu-logo:before {
+	content: "\E931";
+	color: #00d9cc
+}
+
+.icon-noun-likes-851886 .path1:before {
+	content: "\E932";
+	color: #fff
+}
+
+.icon-noun-likes-851886 .path2:before {
+	content: "\E933";
+	margin-left: -1.126953125em;
+	color: #fff;
+	opacity: .8
+}
+
+.icon-noun-likes-851886 .path3:before {
+	content: "\E934";
+	margin-left: -1.126953125em;
+	color: #fff
+}
+
+.icon-all-icon:before {
+	content: "\E935";
+	color: #4d4d4d
+}
+
+.icon-more-icon:before {
+	content: "\E936";
+	color: #4d4d4d
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+}
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-weight: 900;
+  }
+
+  .checked {
+	color: orange;
+  }
+
+  .MuiBadge-anchorOriginBottomLeftRectangle {
+	background-color: rgb(21, 126, 188);
+	color: white;
+  }
