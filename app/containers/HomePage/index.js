@@ -13,7 +13,6 @@ import { createStructuredSelector } from 'reselect';
 import { useInjectReducer } from 'utils/injectReducer';
 import { useInjectSaga } from 'utils/injectSaga';
 import {
-  makeSelectRepos,
   makeSelectLoading,
   makeSelectError,
 } from 'containers/App/selectors';
@@ -28,7 +27,7 @@ import saga from './saga';
 import Loader from "../../components/LoadingIndicator"
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { fade, makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 const key = 'home';
 
@@ -87,7 +86,6 @@ HomePage.propTypes = {
 };
 
 const mapStateToProps = createStructuredSelector({
-  repos: makeSelectRepos(),
   categoryList: getCategoryList(),
   loading: makeSelectLoading(),
   error: makeSelectError(),
