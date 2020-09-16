@@ -87,7 +87,7 @@ function CategoryList({ data, getLoadCategoryDetails, activeCategory }) {
   return (
     <Box container="true" className={classes.categoryContent} >
       <Typography variant="h5" color="textPrimary" style={{ marginLeft: 20 }} gutterBottom>
-        Our Prodouct
+        Our Products
           </Typography>
       <Box
         container="true"

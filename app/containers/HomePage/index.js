@@ -12,14 +12,12 @@ import { createStructuredSelector } from 'reselect';
 
 import { useInjectReducer } from 'utils/injectReducer';
 import { useInjectSaga } from 'utils/injectSaga';
-import {
-  makeSelectLoading,
-  makeSelectError,
-} from 'containers/App/selectors';
+
 import Header from "../../components/Header"
 import Footer from "../../components/Footer"
 import ProductList from "../../components/ProductList"
 import CategoryList from "../../components/CategoryList"
+
 import { loadCategory, viewAllItemChangeHandler, getLoadCategoryDetails } from './actions';
 import { getCategoryList, getIsViewAllItem, activeCategory,getIsFetching } from './selectors';
 import reducer from './reducer';
@@ -29,6 +27,7 @@ import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
+
 const key = 'home';
 
 const useStyles = makeStyles((theme) => ({
@@ -87,8 +86,6 @@ HomePage.propTypes = {
 
 const mapStateToProps = createStructuredSelector({
   categoryList: getCategoryList(),
-  loading: makeSelectLoading(),
-  error: makeSelectError(),
   isViewAllItems: getIsViewAllItem(),
   activeCategory: activeCategory(),
   isFetching:getIsFetching()
